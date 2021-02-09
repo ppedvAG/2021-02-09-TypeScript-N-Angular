@@ -10,19 +10,22 @@
 - [x] [vsc-shortcuts.md](shortcuts/shortcuts-vscode.md)
 - [x] Link: [Git](https://git-scm.com)
 - [x] [textEditorShortcuts.md](SHORTCUTS/SHORTCUTS-EDITOR.md)
-- [ ] Commit: [commit]()
+- [x] Commit: [m001 done](https://github.com/ppedvAG/2021-02-09-TypeScript-N-Angular/commit/a45858538b90d66caa413b5559919c4e5a973811)
 
 ---
 
 ## M001 | GETTING STARTED
 
-- [ ] Folien: TS > [getting started](slides/typescript.md#getting-started)
-- [ ] Link: [npm home](https://www.npmjs.com/)
-- [ ] Demo: [helloTS](getting-started/hellots.ts)
-- [ ] Übung: [login form](getting-started/login.ts)
+- [x] Folien: TS > [getting started](slides/typescript.md#getting-started)
+- [x] Folien: TS > [ts ecosystem](slides/typescript.md#ts--ecosystem)
+- [x] Link: [npm home](https://www.npmjs.com/)
+- [x] Demo: [helloTS](m001/hellots.ts)
+- [x] Demo: [typeNarrowing](m001/typeNarrowing.ts)
+- [ ] Demo: [typeAssertion](m001/typeNarrowing.ts)
+- [x] Übung: [login confirm](m001/loginConfirm.ts)
 - [ ] Optional Demo: wenn gewünscht [emmet]()
 - [ ] Optional Demo: wenn gewünscht [js Dom Traversing]()
-- [ ] Commit: [commit]()
+- [x] Commit: [m001 done]()
 
 <!--
 
