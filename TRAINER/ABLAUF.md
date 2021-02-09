@@ -25,13 +25,11 @@
 - [x] Übung: [login confirm](m001/loginConfirm.ts)
 - [ ] Optional Demo: wenn gewünscht [emmet]()
 - [ ] Optional Demo: wenn gewünscht [js Dom Traversing]()
-- [x] Commit: [m001 done]()
-
-<!--
+- [x] Commit: [m001 getting started done]()
 
 ---
 
-## MXXX | TYPES
+## M002 | TYPES
 
 - [ ] Theorie: [types](slides/typescript.md#types)
 - [ ] Demo: [primitives](types/primitives.ts)
