@@ -1,15 +1,15 @@
 # ABLAUF, VADZIM
 
-- [ ] Commit: [first commit]()
+- [x] Commit: [Ablauf hinzugefügt](https://github.com/ppedvAG/2021-02-09-TypeScript-N-Angular/commit/3cdce0829b38712bcee98d1826e2fc89a98a727a)
 
 ## M000 | WARMING UP
 
-- [ ] Folien: Greeter
-- [ ] Demo: [markdown](markdown.md)
-- [ ] Link: [Visual Studio Code](https://code.visualstudio.com/)
-- [ ] [vsc-shortcuts.md](shortcuts/shortcuts-vscode.md)
-- [ ] Link: [Git](https://git-scm.com)
-- [ ] [textEditorShortcuts.md](SHORTCUTS/SHORTCUTS-EDITOR.md)
+- [x] Folien: Greeter.pdf
+- [x] Demo: [markdown](markdown.md)
+- [x] Link: [Visual Studio Code](https://code.visualstudio.com/)
+- [x] [vsc-shortcuts.md](shortcuts/shortcuts-vscode.md)
+- [x] Link: [Git](https://git-scm.com)
+- [x] [textEditorShortcuts.md](SHORTCUTS/SHORTCUTS-EDITOR.md)
 - [ ] Commit: [commit]()
 
 ---
