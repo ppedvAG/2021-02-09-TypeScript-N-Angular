@@ -34,19 +34,20 @@
 - [x] Theorie: [types](slides/typescript.md#types)
 - [x] Demo: [primitives](m002/primitives.ts)
 - [x] Übung: [Taschenrechner](m002/rechner.ts)
-- [x] Commit: [m002 done]()
+- [x] Commit: [m002 done](https://github.com/ppedvAG/2021-02-09-TypeScript-N-Angular/commit/a2828e7b84a4b7657d8e6471d2836ab4e716c764)
 
 ---
 
-## MXXX | FUNCTIONS
+## M003 | FUNCTIONS
 
-- [ ] Theorie: [functions](slides/typescript.md#functions)
-- [ ] return type
-- [ ] function type
-- [ ] generic function
-- [ ] Demo: [functions](functions/functions.ts)
+- [x] Theorie: [functions](slides/typescript.md#functions)
+- [x] return type
+- [x] function type
+- [x] generic function
+- [x] Demo: [functions](m003/functions.ts)
+- [x] Übung: [giveNodeNames](m003/giveNames.ts)
 - [ ] Übung: [fetch-todos](functions/fetch-todos.ts)
-- [ ] Commit: [commit]()
+- [x] Commit: [m003]()
 
 ---
 
