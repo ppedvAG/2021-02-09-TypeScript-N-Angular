@@ -19,23 +19,22 @@
 - [x] Folien: TS > [getting started](slides/typescript.md#getting-started)
 - [x] Folien: TS > [ts ecosystem](slides/typescript.md#ts--ecosystem)
 - [x] Link: [npm home](https://www.npmjs.com/)
-- [x] Demo: [helloTS](m001/hellots.ts)
+- [x] Demo: [helloTS](m001/helloTS.ts)
 - [x] Demo: [typeNarrowing](m001/typeNarrowing.ts)
-- [ ] Demo: [typeAssertion](m001/typeNarrowing.ts)
+- [ ] Demo: [typeAssertion](m001/typeAssertion.ts)
 - [x] Übung: [login confirm](m001/loginConfirm.ts)
 - [ ] Optional Demo: wenn gewünscht [emmet]()
 - [ ] Optional Demo: wenn gewünscht [js Dom Traversing]()
-- [x] Commit: [m001 getting started done]()
+- [x] Commit: [m001 getting started done](https://github.com/ppedvAG/2021-02-09-TypeScript-N-Angular/commit/ee2279a4792e58606e2fb33cbed265bafa7a4df4)
 
 ---
 
 ## M002 | TYPES
 
-- [ ] Theorie: [types](slides/typescript.md#types)
-- [ ] Demo: [primitives](types/primitives.ts)
-- [ ] Übung: [Taschenrechner](types/rechner.ts)
-- [ ] Demo: [any vs. unknown, assertion](types/anyversusunknown.ts)
-- [ ] Commit: [commit]()
+- [x] Theorie: [types](slides/typescript.md#types)
+- [x] Demo: [primitives](m002/primitives.ts)
+- [x] Übung: [Taschenrechner](m002/rechner.ts)
+- [x] Commit: [m002 done]()
 
 ---
 
