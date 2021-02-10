@@ -58,7 +58,7 @@
 - [x] Demo: [tuples](m004/tuples.ts)
 - [x] Demo: [objects](m004/objects.ts)
 - [x] Übung: [arrays](m004/ue-array-iteration.ts)
-- [x] Commit: [m004 done]()
+- [x] Commit: [m004 done](https://github.com/ppedvAG/2021-02-09-TypeScript-N-Angular/commit/e46df98df0170067438b9eea049a89d9e7dcd5eb)
 - [ ] Optional Map & Set?
 
 ---
@@ -69,18 +69,17 @@
 - [x] Theorie & Demo: [literal type](m005/literaltypes.ts)
 - [x] Theorie & Demo: [enum](m005/enums.ts)
 - [x] Übung: [Pizzabestellung](m005/ue-pizza.ts)
-- [x] Commit: [m005 done]()
+- [x] Commit: [m005 done](https://github.com/ppedvAG/2021-02-09-TypeScript-N-Angular/commit/713732c19ddb3f2849d9b7d39bfb4189e9a0551b)
 
 ---
 
+## M006 | CLASSES & INTERFACES
 
-## MXXX | CLASSES & INTERFACES
-
-- [ ] Theorie:
-- [ ] Demo:
-- [ ] [interfaces]()
-- [ ] Commit: [commit]()
-
+- [x] Folien: [interfaces](slides/typescript.md#interfaces)
+- [x] Folien: [classes](slides/typescript.md#classes)
+- [x] Demo: [interfaces](m006/interfaces.ts)
+- [x] Demo: [classes](m006/classes.ts)
+- [x] Commit: [m006 done]()
 
 ---
 
