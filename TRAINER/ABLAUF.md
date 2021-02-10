@@ -85,6 +85,8 @@
 
 ## M007 | AMBIENTS (NAMESPASES / MODULES)
 
+*kurz erklärt*
+
 - [ ] Theorie:
 - [ ] Demo: [namespaces](m007/namespaces.ts)
 - [ ] Commit: [commit]()
@@ -93,9 +95,132 @@
 
 ## M008 | PROMISE
 
-- [ ] Theorie & Demo: [promise](m008/promises.ts)
-- [ ] Übung: [fetchAPI](m008/ue-fetchAPI.ts)
-- [ ] Commit: [m008]()
+- [x] Theorie & Demo: [promise](m008/promises.ts)
+- [x] Übung: [fetchAPI](m008/ue-fetchAPI.ts)
+- [x] Commit: [m008 done](https://github.com/ppedvAG/2021-02-09-TypeScript-N-Angular/commit/311c2eb099a2d010c427e05e2f80446254553da2)
+
+---
+
+## M009 | NG GETTING STARTED
+
+- [x] Folien: ANGULAR.pdf > NG & SPA
+- [x] Folien: ANGULAR.pdf > GETTING STARTED
+- [x] Folien: ANGULAR.pdf > PROJECT STRUCTURE
+- [x] Folien: ANGULAR.pdf > ECOSYSTEM
+- [x] Folien: ANGULAR.pdf > NG TOOL
+- [x] Demo: [grundlegende Begriffe von NG](theory-app/src/app/app.component.ts)
+- [x] Commit: [m009 done]()
+
+---
+
+## Mxx | NG MODULES ##
+
+- [ ] ng modules
+- [ ] js/ts modules
+- [ ] node modules
+- [ ] demo
+
+commit
+
+## Mxx | COMPONENTS INTRO ##
+
+- [ ] component template
+- [ ] component selector
+- [ ] imports of components
+- [ ] demo time
+- [ ] inputs demo card
+- [ ] Ü rating
+
+<!-- LAB:
+in photos-mdl eine komponente rating
+mit zwei Props Input-starsNumber & starsString
+
+starsString = '*'.repeat(starsNumber);
+
+photos-mdl hat auch eine Overview-Komponente
+rating-Komponente wird über Overview gerendert
+ -->
+
+ commit
+
+## Mxx | NG & CSS ##
+
+- [ ] :host
+- [ ] style-object: card.component.html
+- [ ] class-object: events.component.html
+- [ ] ngStyle
+- [ ] ngClass: furniture.component.html
+- [ ] className
+
+commit
+
+## Mxx | DIRECTIVES ##
+
+- [ ] directive, directive types
+- [ ] ngFor, ngIf, ngSwitch
+- [ ] ng-template roman-number.component.html
+- [ ] Ü photos
+
+<!-- 
+LAB
+15 Bilder holen
+in ein Array diese 15 Bilder packen
+Array durchiterieren und dabei soll die 
+Komponente Photo wiederholt werden -->
+
+commit
+
+## Mxx | COMPONENTS & LIFECYCLE ##
+
+- [ ] templates & 'inline-template'
+- [ ] 'inline-styles'
+- [ ] class fields / props & template variables
+- [ ] components lifecycle & lifecycle hooks
+- [ ] pipes demo pipes.component.html
+- [ ] commit
+ 
+---
+
+## Mxx | EVENTS ##
+
+- [ ] event binding über runde Klammern
+- [ ] event object, event.target, event types
+- [ ] demo events events.component.ts
+- [ ] demo outputs outputs.component.ts
+- [ ] commit
+
+## Mxx | FORMS ##
+
+- [ ] FormsModule
+- [ ] ngModel
+- [ ] ngForm
+- [ ] two way data binding [(ngModel)]
+- [ ] demo ngform ngform.component.ts
+- [ ] Ü login form login-form.component.ts
+- [ ] commit
+
+## Mxx | ROUTING ##
+
+- [ ] RoutingModule & RouterModule
+- [ ] Routes & Route
+- [ ] Paths, Endpoints, Redirections
+- [ ] router-outlet & routerLink
+- [ ] commit
+
+## Mxx | SERVICES ##
+
+- [ ] dependency injection
+- [ ] service & @Injectable()
+- [ ] HttpClienModule & HttpClient
+- [ ] rxjs & observables!!! (ausführlicher gewünscht)
+- [ ] demo todos.service.ts
+- [ ] commit
+
+## Mxx | MATERIAL ##
+
+- [ ] Link: [material.angular.io](https://material.angular.io/)
+- [ ] Demo mat-slider
+- [ ] commit
 
 ---
 
@@ -106,7 +231,7 @@
 
 ---
 
-## MXXX | service worker?
+## MXXX | SERVICE WORKER?
 
 - [ ] Theorie:
 - [ ] Demo:
@@ -127,6 +252,3 @@
 - [ ] Theorie:
 - [ ] Demo:
 - [ ] [commit]()
-
--->
-
