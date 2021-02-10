@@ -63,13 +63,13 @@
 
 ---
 
-## MXXX | CUSTOM PRIMITIVES
+## M005 | CUSTOM PRIMITIVES
 
-- [ ] Theorie & Demo: [union](types/unions.ts)
-- [ ] Theorie & Demo: [literal type](types/literaltypes.ts)
-- [ ] Theorie & Demo: [enum](types/enums.ts)
-- [ ] Übung: [Pizzabestellung](types/ue-pizza.ts)
-- [ ] Commit: [commit]()
+- [x] Theorie & Demo: [union](m005/unions.ts)
+- [x] Theorie & Demo: [literal type](m005/literaltypes.ts)
+- [x] Theorie & Demo: [enum](m005/enums.ts)
+- [x] Übung: [Pizzabestellung](m005/ue-pizza.ts)
+- [x] Commit: [m005 done]()
 
 ---
 
