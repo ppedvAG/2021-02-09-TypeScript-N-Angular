@@ -31,7 +31,7 @@
 
 ## M002 | TYPES
 
-- [x] Theorie: [types](slides/typescript.md#types)
+- [x] Folien: [types](slides/typescript.md#types)
 - [x] Demo: [primitives](m002/primitives.ts)
 - [x] Übung: [Taschenrechner](m002/rechner.ts)
 - [x] Commit: [m002 done](https://github.com/ppedvAG/2021-02-09-TypeScript-N-Angular/commit/a2828e7b84a4b7657d8e6471d2836ab4e716c764)
@@ -40,24 +40,25 @@
 
 ## M003 | FUNCTIONS
 
-- [x] Theorie: [functions](slides/typescript.md#functions)
+- [x] Folien: [functions](slides/typescript.md#functions)
 - [x] return type
 - [x] function type
 - [x] generic function
 - [x] Demo: [functions](m003/functions.ts)
 - [x] Übung: [giveNodeNames](m003/giveNames.ts)
 - [ ] Übung: [fetch-todos](functions/fetch-todos.ts)
-- [x] Commit: [m003]()
+- [x] Commit: [m003](https://github.com/ppedvAG/2021-02-09-TypeScript-N-Angular/commit/8020bd2491b154a8ee297fd8a3d095eb589a00e0)
 
 ---
 
-## MXXX | DATA STRUCTURES
+## M004 | DATA STRUCTURES
 
-- [ ] Demo: [arrays](structures/arrays.ts)
-- [ ] Demo: [tuples](structures/tuples.ts)
-- [ ] Übung: [arrays](structures/ue-array-iteration.ts)
-- [ ] Demo: [objects](structures/objects.ts)
-- [ ] Commit: [commit]()
+- [x] Folien: [structures](slides/typescript.md#data-structures)
+- [x] Demo: [arrays](m004/arrays.ts)
+- [x] Demo: [tuples](m004/tuples.ts)
+- [x] Demo: [objects](m004/objects.ts)
+- [x] Übung: [arrays](m004/ue-array-iteration.ts)
+- [x] Commit: [m004 done]()
 - [ ] Optional Map & Set?
 
 ---
@@ -72,6 +73,17 @@
 
 ---
 
+
+## MXXX | CLASSES & INTERFACES
+
+- [ ] Theorie:
+- [ ] Demo:
+- [ ] [interfaces]()
+- [ ] Commit: [commit]()
+
+
+---
+
 ## MXXX | AMBIENTS (NAMESPASES / MODULES)
 
 - [ ] Theorie:
@@ -83,14 +95,7 @@
 - [ ] Link: <https://definitelytyped.org/>
 - [ ] Demo: [declare](declarations/declarations.ts)
 
----
 
-## MXXX | CLASSES & INTERFACES
-
-- [ ] Theorie:
-- [ ] Demo:
-- [ ] [interfaces]()
-- [ ] Commit: [commit]()
 
 ---
 
