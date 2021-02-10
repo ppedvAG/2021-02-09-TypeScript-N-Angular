@@ -1,5 +1,5 @@
 "use strict";
-var myHTMLElement = document.getElementById('divId1');
+let myHTMLElement = document.getElementById('divId1');
 // Document.getElementById(elementId: string): HTMLElement | null
 console.log('myHTMLElement', myHTMLElement);
 // Versuch 1
@@ -9,6 +9,6 @@ console.log('myHTMLElement', myHTMLElement);
 // todo: Fragezeichen wird automatisch
 // von der Erweiterung TSLint hinzugefügt
 // Versuch 3
-var myHTMLElement2 = myHTMLElement;
+let myHTMLElement2 = myHTMLElement;
 // mit dem Ausrufezeichen wird die null-Option weggenommen
 myHTMLElement2.textContent = 'Inhalt für divId1';

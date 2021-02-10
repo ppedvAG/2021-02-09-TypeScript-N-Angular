@@ -3,12 +3,20 @@
 // Ändern von Tuples ...
 // Verwendung von Tuples
 // z.B. zum Abspeichern von Koordinaten
-var coord1 = [123, 43];
-var coord2 = [43, 32];
-var coord3 = [8, 1];
-var coord4 = [345, 150];
-var coord5 = [255, 55];
-var myPolygon = document.createElement('polygon');
-var htmlStringForPolygon = "\n<polygon points=\"\n" + coord1 + "\n" + coord2 + "\n" + coord3 + "\n" + coord4 + "\n" + coord5 + "\n\" style=\"fill:lime; stroke:purple; stroke-width: 2\" />\n";
-var mySVG = document.getElementById('svgId');
+let coord1 = [123, 43];
+let coord2 = [43, 32];
+let coord3 = [8, 1];
+let coord4 = [345, 150];
+let coord5 = [255, 55];
+let myPolygon = document.createElement('polygon');
+let htmlStringForPolygon = `
+<polygon points="
+${coord1}
+${coord2}
+${coord3}
+${coord4}
+${coord5}
+" style="fill:lime; stroke:purple; stroke-width: 2" />
+`;
+let mySVG = document.getElementById('svgId');
 mySVG.innerHTML = htmlStringForPolygon;

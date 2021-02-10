@@ -1,6 +1,6 @@
 "use strict";
-var Employee = /** @class */ (function () {
-    function Employee(lastName, firstName, address, // readonly muss nochmal in der Klasse explizit angegeben werden, siehe TEST readonly address unten
+class Employee {
+    constructor(lastName, firstName, address, // readonly muss nochmal in der Klasse explizit angegeben werden, siehe TEST readonly address unten
     age) {
         this.lastName = lastName;
         this.firstName = firstName;
@@ -8,12 +8,11 @@ var Employee = /** @class */ (function () {
         this.age = age;
         // eventuell noch die Props hier befüllen, deren Werte sich aus den Argumenten vom Konstruktor berechnet werden
     }
-    Employee.prototype.getFullName = function () {
+    getFullName() {
         throw new Error("Method not implemented.");
-    };
-    return Employee;
-}());
-var employeeMax = new Employee('Mustermann', 'Max', 'Hauptsraße 1', 26);
+    }
+}
+let employeeMax = new Employee('Mustermann', 'Max', 'Hauptsraße 1', 26);
 // === TEST readonly address?
 // Modifizierer readonly vom Interface wird in die Klasse nicht übernommen
 // employeeMax.address = 'Nebenstraße 1'
@@ -39,9 +38,8 @@ if (employeeMax.children) {
     console.log('employeeMax.children', employeeMax.children);
 }
 // todo #7
-var Employer = /** @class */ (function () {
-    function Employer(lastName, firstName, address, age) {
-        var _this = this;
+class Employer {
+    constructor(lastName, firstName, address, age) {
         this.lastName = lastName;
         this.firstName = firstName;
         this.address = address;
@@ -51,22 +49,21 @@ var Employer = /** @class */ (function () {
         // private salary?: number;
         // oder
         this.salary = 0; // ohne Methode getSalary - Hinweis: never read prop
-        this.getSalary = function () {
-            return _this.salary;
+        this.getSalary = () => {
+            return this.salary;
         };
         // ohne setter ist auch das Befüllen der Prop von draußen nicht möglich, siehe 'TEST private'
-        this.setSalary = function (sal) {
-            _this.salary = sal;
+        this.setSalary = (sal) => {
+            this.salary = sal;
         };
         // this.salary = 0 // Wenn nicht als Arg im Konstruktor, dann kann die Prop direkt im Körper vom Konstruktor initialisiert werden
     }
-    Employer.prototype.getFullName = function () {
+    getFullName() {
         throw new Error("Method not implemented.");
-    };
-    return Employer;
-}());
+    }
+}
 // === TEST private
-var employerKerstin = new Employer('Müller', 'Kerstin', 'Dingenskirchensstraße 1', 28);
+let employerKerstin = new Employer('Müller', 'Kerstin', 'Dingenskirchensstraße 1', 28);
 // employerKerstin.salary // Fehler: Property 'salary' is private and only accessible within class 'Employer'.ts(2341)
 // nach dem Hinzufügen vom Setter:
 employerKerstin.setSalary(2500);

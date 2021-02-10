@@ -12,17 +12,17 @@
 // let children = rootNode.childNodes
 // console.log('children :>> ', children);
 // let allTags = document.querySelector('*') // (gibt eine DOM-Struktur zurück)
-var allTagsHTMLColl = document.getElementsByTagName('*'); // gibt eine HTMLCollection zurück
+let allTagsHTMLColl = document.getElementsByTagName('*'); // gibt eine HTMLCollection zurück
 console.log('allTags', allTagsHTMLColl);
-var allTagsArr = [].slice.call(allTagsHTMLColl); // bis 'es2015'
-var myStringß = 'ßßßßß';
+let allTagsArr = [].slice.call(allTagsHTMLColl); // bis 'es2015'
+let myStringß = 'ßßßßß';
 // let newString = myStringß.replace(/ß/i, 'ss')
-var newString = myStringß.replace(/ß/g, 'ss');
+let newString = myStringß.replace(/ß/g, 'ss');
 // let newString = myStringß.replace('ß', 'ss')
 console.log('myStringß', myStringß);
 console.log('newString', newString);
-allTagsArr.forEach(function (element) {
-    var text = element.innerText;
+allTagsArr.forEach(element => {
+    let text = element.innerText;
     console.log('text :>> ', text);
     text = text.replace('ß', 'ss');
     element.innerText = text;

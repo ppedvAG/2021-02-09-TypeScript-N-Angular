@@ -79,42 +79,42 @@
 - [x] Folien: [classes](slides/typescript.md#classes)
 - [x] Demo: [interfaces](m006/interfaces.ts)
 - [x] Demo: [classes](m006/classes.ts)
-- [x] Commit: [m006 done]()
+- [x] Commit: [m006 done](https://github.com/ppedvAG/2021-02-09-TypeScript-N-Angular/commit/a3c2cb1f53341ca6c3ba1bc92e898c4a199ecd69)
 
 ---
 
-## MXXX | AMBIENTS (NAMESPASES / MODULES)
+## M007 | AMBIENTS (NAMESPASES / MODULES)
 
 - [ ] Theorie:
-- [ ] Demo: [namespaces](ambients/namespaces.ts)
+- [ ] Demo: [namespaces](m007/namespaces.ts)
 - [ ] Commit: [commit]()
+
+---
+
+## M008 | PROMISE
+
+- [ ] Theorie & Demo: [promise](m008/promises.ts)
+- [ ] Übung: [fetchAPI](m008/ue-fetchAPI.ts)
+- [ ] Commit: [m008]()
+
+---
 
 ## MXXX | DECLARATION FILES
 
 - [ ] Link: <https://definitelytyped.org/>
 - [ ] Demo: [declare](declarations/declarations.ts)
 
+---
 
+## MXXX | service worker?
+
+- [ ] Theorie:
+- [ ] Demo:
+- [ ] [commit]()
 
 ---
 
 ## MXXX | DECORATORS
-
-- [ ] Theorie:
-- [ ] Demo:
-- [ ] [commit]()
-
----
-
-## MXXX | promise?
-
-- [ ] Theorie:
-- [ ] Demo:
-- [ ] [commit]()
-
----
-
-## MXXX | service worker?
 
 - [ ] Theorie:
 - [ ] Demo:

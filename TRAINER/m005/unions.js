@@ -1,5 +1,5 @@
 "use strict";
-var datum;
+let datum;
 // wenn die Variable links von dem Zuweisungsoperator steht, dann hat sie den Typ string | Date
 // wenn die Variable rechts von dem Zuweisungsoperator steht oder in den Ausdrücken genutzt wird,
 // dann hat sie den Typ, welcher von dem konkreten Wert der Variable vorgegeben wird

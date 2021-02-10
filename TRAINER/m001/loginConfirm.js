@@ -2,10 +2,10 @@
 // Aufgabe:
 // bei der gleichen Eingabe in 2 Inputfeldern wird entweder ein Button aktiv oder kommt eine Meldung, dass die Eingaben übereinstimmen
 // let myBtnCheck = document.getElementById('')
-var myInp1 = document.getElementById('inp1');
-var myInp2 = document.getElementById('inp2');
-var myBtnOk = document.getElementById('btnOk');
-var myPAusgabe = document.getElementById('PAusgabe');
+let myInp1 = document.getElementById('inp1');
+let myInp2 = document.getElementById('inp2');
+let myBtnOk = document.getElementById('btnOk');
+let myPAusgabe = document.getElementById('PAusgabe');
 // todo
 // myInp1?.addEventListener('change', handleChange);
 myInp1.addEventListener('change', handleChange);

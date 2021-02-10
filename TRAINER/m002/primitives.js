@@ -1,13 +1,13 @@
 "use strict";
 // BESONDERHEITEN VON CONDITIONS IN JS UND TS
-var stringVar = 'wert von string';
+let stringVar = 'wert von string';
 if (stringVar)
     console.log('die Bedingung war true');
 if (1)
     console.log('die Bedingung 2 war true');
 // BESONDERHEIT VON ZWEIFACHEM VERGLEICH IN TS UND JS
-var myString = '4';
-var myNumber = 4;
+let myString = '4';
+let myNumber = 4;
 // if (myString == myNumber) // in JS werden damit nur die Werte verglichen aber keine Datentypen, in TS funktioniert das nicht
 // TS-SPEZIFISCHEN PRIMITIVEN
 // === void ===
@@ -21,7 +21,7 @@ function myVoidFct() {
 }
 myVoidFct();
 // === any ===
-var myAny;
+let myAny;
 myAny = 4;
 console.log('typeof myAny', typeof myAny); // number
 myAny = '4'; // Typechecking ist bei any ausgeschaltet: any akzeptiert alle Werte
@@ -36,7 +36,7 @@ console.log('myString', myString); //number
 console.log('typeof myString', typeof myString); //number
 myString = ' text nach einer Number-Zuweisung'; // myString funktioniert jetzt auch wie any
 // === unknown ===
-var myUnknown;
+let myUnknown;
 // gleich wie bei any:
 myUnknown = 3;
 console.log('typeof myUnknown', typeof myUnknown); // number
@@ -46,12 +46,12 @@ myUnknown = '  text  ';
 myAny = '  text  ';
 console.log('myAny.trim()', myAny.trim()); // type checking ist komplett aus
 // console.log('myUnknown.trim()', myUnknown.trim()) // Object is of type 'unknown'.ts(2571)
-var myString2 = 'wert';
+let myString2 = 'wert';
 // Type-Checking bei Zuweisungen ist an
 // myString2 = myUnknown // Type 'unknown' is not assignable to type 'string'.ts(2322)
 // myString = myUnknown
 // === never ===
-var myEmptyArray = [];
+let myEmptyArray = [];
 console.log('myEmptyArray[0]', myEmptyArray[0]); // Compiler zwingt, den Datentyp anzugeben
 console.log('typeof [][0]', typeof [][0]); // undefined
 // hier sehen wir, dass der Ausdruck [][0] den Datentyp never hat:

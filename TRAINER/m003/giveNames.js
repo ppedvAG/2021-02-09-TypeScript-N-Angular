@@ -6,24 +6,20 @@
 // Nutzen von dieser anzulegenden Funktion ist, 
 // dass man durch sie immer ein Array von nodeNames bekommt, 
 // egal, mit welcher Traversing-Methode die (HTML)Elemente selektiert hat.
-function giveNames(htmlColl, nodesList) {
-    var elementsOrNodes = [];
-    for (var _i = 2; _i < arguments.length; _i++) {
-        elementsOrNodes[_i - 2] = arguments[_i];
-    }
-    var namesArray = [];
+function giveNames(htmlColl, nodesList, ...elementsOrNodes) {
+    let namesArray = [];
     if (nodesList) {
-        for (var index = 0; index < nodesList.length; index++) {
+        for (let index = 0; index < nodesList.length; index++) {
             namesArray.push(nodesList[index].nodeName);
         }
     }
     if (elementsOrNodes) {
-        for (var index = 0; index < elementsOrNodes.length; index++) {
+        for (let index = 0; index < elementsOrNodes.length; index++) {
             namesArray.push(elementsOrNodes[index].nodeName);
         }
     }
     if (htmlColl) {
-        for (var index = 0; index < htmlColl.length; index++) {
+        for (let index = 0; index < htmlColl.length; index++) {
             namesArray.push(htmlColl[index].nodeName);
         }
     }

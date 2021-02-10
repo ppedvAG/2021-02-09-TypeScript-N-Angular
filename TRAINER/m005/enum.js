@@ -8,7 +8,7 @@ var lengthUnit;
 })(lengthUnit || (lengthUnit = {})); // die werte sind string-Konstanten
 // Unterschied bei enum ist, dass ich die möglichen Werte durch Indizes ansprechen kann
 // und dass ich die Werte von diesem Datentyp nur direkt von dem enum selbst bekommen kann
-var schiffGeschwEinheit = lengthUnit.meile; // Syntax wei bei Objekten
+let schiffGeschwEinheit = lengthUnit.meile; // Syntax wei bei Objekten
 // let autoGeschwEinheit: lengthUnit = lengthUnit[2] // Fehler Type 'string' is not assignable to type 'lengthUnit'.ts(2322)
 // let autoGeschwEinheit: lengthUnit = 'kilometer' // Fehler Type '"kilometer"' is not assignable to type 'lengthUnit'.ts(2322)
 console.log('lengthUnit[0]', lengthUnit[0]); // cm
