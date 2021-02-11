@@ -108,19 +108,18 @@
 - [x] Folien: ANGULAR.pdf > PROJECT STRUCTURE
 - [x] Folien: ANGULAR.pdf > ECOSYSTEM
 - [x] Folien: ANGULAR.pdf > NG TOOL
-- [x] Demo: [grundlegende Begriffe von NG](theory-app/src/app/app.component.ts)
-- [x] Commit: [m009 done]()
+- [x] Demo: [grundlegende Begriffe von NG](theory-app/src/app/app/app.component.ts)
+- [x] Commit: [m009 done](https://github.com/ppedvAG/2021-02-09-TypeScript-N-Angular/commit/c81e033b00f308315a4427bddf30ef938f0e9dee)
 
 ---
 
-## Mxx | NG MODULES ##
+## M010 | NG MODULES ##
 
-- [ ] ng modules
-- [ ] js/ts modules
-- [ ] node modules
-- [ ] demo
-
-commit
+- [x] Folien: ANGULAR.pdf > NG MODULES
+- [x] Übung: [module einbinden](theory-app/src/app/app/app.component.ts)
+- [x] Folien: JAVASCRIPT.pdf > JS MODULES
+- [x] Theorie: node modules
+- [x] Commit: [m010 done]()
 
 ## Mxx | COMPONENTS INTRO ##
 
