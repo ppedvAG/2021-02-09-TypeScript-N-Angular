@@ -125,11 +125,11 @@
 
 ## M011 | COMPONENTS INTRO
 
-- [ ] Folien: ANGULAR.pdf > NG COMPONENTS
-- [ ] Demo: [ngOnInit()](theory-app/src/app/labs/time/time.component.ts)
-- [ ] Demo: [@Input()](theory-app/src/app/labs/card/card.component.ts)
-- [ ] Übung: [rating component](theory-app/src/app/todos/rating/rating.component.ts)
-- [ ] Commit: [m011 done]()
+- [x] Folien: ANGULAR.pdf > NG COMPONENTS
+- [x] Demo: [ngOnInit()](theory-app/src/app/labs/time/time.component.ts)
+- [x] Demo: [@Input()](theory-app/src/app/labs/card/card.component.ts)
+- [x] Übung: [rating component](theory-app/src/app/todos/rating/rating.component.ts)
+- [x] Commit: [m011 done](https://github.com/ppedvAG/2021-02-09-TypeScript-N-Angular/commit/4c0a3ab24831fc4addf18a9db9dd0223e71184a0)
 
 <!-- LAB1: Durch ein Klick auf einen Button wird die Uhr angehalten -->
 
@@ -144,8 +144,21 @@ todos-mdl hat auch eine Overview-Komponente
 rating-Komponente wird über Overview gerendert
  -->
 
+---
 
+## M012 | COMPONENTS & LIFECYCLE
 
+- [ ] Folien: ANGULAR.pdf > NG STATE > LIFECYCLE
+- [ ] Demo: [lifecycle hooks](theory-app/src/app/labs/diashow/diashow.component.ts)
+- [ ] Commit: [m012 done]()
+
+- [ ] templates & 'inline-template'
+- [ ] 'inline-styles'
+- [ ] class fields / props & template variables
+- [ ] pipes demo pipes.component.html
+
+ 
+---
 ## Mxx | NG & CSS ##
 
 - [ ] :host
@@ -173,16 +186,6 @@ Komponente Photo wiederholt werden -->
 
 commit
 
-## Mxx | COMPONENTS & LIFECYCLE ##
-
-- [ ] templates & 'inline-template'
-- [ ] 'inline-styles'
-- [ ] class fields / props & template variables
-- [ ] components lifecycle & lifecycle hooks
-- [ ] pipes demo pipes.component.html
-- [ ] commit
- 
----
 
 ## Mxx | EVENTS ##
 

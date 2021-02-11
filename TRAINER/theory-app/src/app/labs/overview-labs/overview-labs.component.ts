@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DiashowComponent } from '../diashow/diashow.component'
 
 @Component({
   selector: 'app-overview-labs',
@@ -9,9 +10,16 @@ export class OverviewLabsComponent implements OnInit {
 
   diamonds: string = 'diamonds'
 
+  diashow: any = DiashowComponent
+
   constructor() { }
 
   ngOnInit(): void {
+    console.log('this.diashow', this.diashow)
+  }
+
+  destroyDiashow() {
+    this.diashow = null
   }
 
 }

@@ -14,3 +14,16 @@
 <!-- wenn der Wert 'hearts' direkt von hier kommt -->
 <app-card [suit]="'caro'" [value]=3></app-card>
 <app-card [suit]="'diamonds'" [value]=3></app-card>
+
+
+<h3>DIASHOW COMPONENT</h3>
+<app-diashow [images]="[
+'https://picsum.photos/300/200?image=0',
+'https://picsum.photos/300/200?image=10',
+'https://picsum.photos/300/200?image=20',
+'https://picsum.photos/300/200?image=30'
+]"
+></app-diashow>
+
+<pre>test mit destroying</pre>
+<button (click)=destroyDiashow()>destroy</button>
