@@ -1,11 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { OverviewTodosComponent } from './overview-todos/overview-todos.component';
+import { RatingComponent } from './rating/rating.component';
 
 
 
 @NgModule({
-  declarations: [OverviewTodosComponent],
+  declarations: [OverviewTodosComponent, RatingComponent],
   imports: [
     CommonModule
   ],

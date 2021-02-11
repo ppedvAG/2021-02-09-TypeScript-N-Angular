@@ -113,34 +113,38 @@
 
 ---
 
-## M010 | NG MODULES ##
+## M010 | NG MODULES
 
 - [x] Folien: ANGULAR.pdf > NG MODULES
 - [x] Übung: [module einbinden](theory-app/src/app/app/app.component.ts)
 - [x] Folien: JAVASCRIPT.pdf > JS MODULES
 - [x] Theorie: node modules
-- [x] Commit: [m010 done]()
+- [x] Commit: [m010 done](https://github.com/ppedvAG/2021-02-09-TypeScript-N-Angular/commit/f7c3e5d69b686d5bdcd78369795707cd02a10e86)
 
-## Mxx | COMPONENTS INTRO ##
+---
 
-- [ ] component template
-- [ ] component selector
-- [ ] imports of components
-- [ ] demo time
-- [ ] inputs demo card
-- [ ] Ü rating
+## M011 | COMPONENTS INTRO
 
-<!-- LAB:
-in photos-mdl eine komponente rating
-mit zwei Props Input-starsNumber & starsString
+- [ ] Folien: ANGULAR.pdf > NG COMPONENTS
+- [ ] Demo: [ngOnInit()](theory-app/src/app/labs/time/time.component.ts)
+- [ ] Demo: [@Input()](theory-app/src/app/labs/card/card.component.ts)
+- [ ] Übung: [rating component](theory-app/src/app/todos/rating/rating.component.ts)
+- [ ] Commit: [m011 done]()
+
+<!-- LAB1: Durch ein Klick auf einen Button wird die Uhr angehalten -->
+
+<!-- LAB2:
+in todos-mdl eine komponente rating
+mit zwei Props starsNumber als Input
+und starsString
 
 starsString = '*'.repeat(starsNumber);
 
-photos-mdl hat auch eine Overview-Komponente
+todos-mdl hat auch eine Overview-Komponente
 rating-Komponente wird über Overview gerendert
  -->
 
- commit
+
 
 ## Mxx | NG & CSS ##
 

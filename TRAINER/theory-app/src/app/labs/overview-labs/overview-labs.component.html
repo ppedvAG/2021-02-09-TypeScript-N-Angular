@@ -1,1 +1,16 @@
+<h2>LABS OVERVIEW</h2>
 <p>overview-labs works!</p>
+
+
+<app-time></app-time>
+
+
+<h3>CARD COMPONENT</h3>
+<p>@Input(), props von der aufrufenden Stelle</p>
+<app-card [suit]="diamonds" [value]=3></app-card>
+  <!--   wenn Wert für diamonds als Prop in der overview-Komponente existiert -->
+  <!-- todo #11 -->
+<app-card [suit]="'hearts'" [value]=3></app-card>
+<!-- wenn der Wert 'hearts' direkt von hier kommt -->
+<app-card [suit]="'caro'" [value]=3></app-card>
+<app-card [suit]="'diamonds'" [value]=3></app-card>

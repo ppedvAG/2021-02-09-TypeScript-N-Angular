@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OverviewLabsComponent implements OnInit {
 
+  diamonds: string = 'diamonds'
+
   constructor() { }
 
   ngOnInit(): void {
