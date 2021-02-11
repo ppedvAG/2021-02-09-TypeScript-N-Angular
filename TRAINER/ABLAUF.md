@@ -126,6 +126,8 @@
 ## M011 | COMPONENTS INTRO
 
 - [x] Folien: ANGULAR.pdf > NG COMPONENTS
+- [ ] templateUrl VS template ('inline-template')
+- [ ] styleUrls VS style ('inline-styles')
 - [x] Demo: [ngOnInit()](theory-app/src/app/labs/time/time.component.ts)
 - [x] Demo: [@Input()](theory-app/src/app/labs/card/card.component.ts)
 - [x] Übung: [rating component](theory-app/src/app/todos/rating/rating.component.ts)
@@ -154,7 +156,7 @@ rating-Komponente wird über Overview gerendert
 
 ---
 
-## M013 | NG & CSS ##
+## M013 | NG & CSS
 
 - [ ] :host
 - [ ] style-object: card.component.html
@@ -162,23 +164,28 @@ rating-Komponente wird über Overview gerendert
 - [ ] ngStyle
 - [ ] ngClass: furniture.component.html
 - [ ] className
-- [ ] commit [m013 done]
+- [ ] commit [m013 done](https://github.com/ppedvAG/2021-02-09-TypeScript-N-Angular/commit/d861de08564cb286391f1d801e7e128ee0138236)
 
+---
 
+## M014 | DIRECTIVES
 
- 
+- [x] Folien: ANGULAR.pdf > DIRECTIVES
+- [x] Folien: ANGULAR.pdf > TEMPLATES
+- [x] ngFor, ngIf, ngSwitch
+- [x] class fields / props & template variables
+- [x] pipes demo pipes.component.html
+- [x] ng-template roman-number.component.html
+- [x] Übung: [dice](theory-app/src/app/labs/dice/dice.component.ts)
+- [x] Commit: [m014 done]
 
-
-## Mxx | DIRECTIVES ##
-
-- [ ] directive, directive types
-- [ ] ngFor, ngIf, ngSwitch
-- [ ] templates & 'inline-template'
-- [ ] 'inline-styles'
-- [ ] class fields / props & template variables
-- [ ] pipes demo pipes.component.html
-- [ ] ng-template roman-number.component.html
-- [ ] Ü photos
+<!-- 
+LAB1
+Komponente dice
+eine Zufallszahl von 1 bis 6 wird erzeugt
+bei einer 6 wird eine Klasse 'bingo' angewendet
+bei einer 1 wird eine Meldung gezeigt: dass der Benutzer weiter versuchen sollte
+ -->
 
 <!-- 
 LAB

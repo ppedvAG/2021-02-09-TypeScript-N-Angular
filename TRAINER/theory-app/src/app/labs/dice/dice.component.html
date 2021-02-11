@@ -1,0 +1,8 @@
+<p>dice works!</p>
+
+<button (click)=wuerfeln()>wirf!</button>
+<p>{{info}}
+    <span [class.bingo]="zufallsZahl % 2 === 0">{{zufallsZahl}} ! </span>
+    <span *ngIf="zufallsZahl % 2 === 1">Das war eine ungerade Zahl</span>
+</p>
+<p *ngIf="zufallsZahl === 1">Tiefer geht es nicht, nur bergauf. Bleib optimistisch!</p>
