@@ -150,16 +150,11 @@ rating-Komponente wird über Overview gerendert
 
 - [ ] Folien: ANGULAR.pdf > NG STATE > LIFECYCLE
 - [ ] Demo: [lifecycle hooks](theory-app/src/app/labs/diashow/diashow.component.ts)
-- [ ] Commit: [m012 done]()
+- [ ] Commit: [m012 done](https://github.com/ppedvAG/2021-02-09-TypeScript-N-Angular/commit/5a57a522d596c830523892fb3713f9697eb2836e)
 
-- [ ] templates & 'inline-template'
-- [ ] 'inline-styles'
-- [ ] class fields / props & template variables
-- [ ] pipes demo pipes.component.html
-
- 
 ---
-## Mxx | NG & CSS ##
+
+## M013 | NG & CSS ##
 
 - [ ] :host
 - [ ] style-object: card.component.html
@@ -167,13 +162,21 @@ rating-Komponente wird über Overview gerendert
 - [ ] ngStyle
 - [ ] ngClass: furniture.component.html
 - [ ] className
+- [ ] commit [m013 done]
 
-commit
+
+
+ 
+
 
 ## Mxx | DIRECTIVES ##
 
 - [ ] directive, directive types
 - [ ] ngFor, ngIf, ngSwitch
+- [ ] templates & 'inline-template'
+- [ ] 'inline-styles'
+- [ ] class fields / props & template variables
+- [ ] pipes demo pipes.component.html
 - [ ] ng-template roman-number.component.html
 - [ ] Ü photos
 
