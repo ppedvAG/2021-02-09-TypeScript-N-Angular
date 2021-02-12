@@ -217,7 +217,21 @@ Komponente Photo wiederholt werden -->
 - [x] two way data binding [(ngModel)]
 - [x] demo ngform ngform.component.ts
 - [x] Übung: [pwConfirm](theory-app/src/app/labs/pw-confirm/pw-confirm.component.ts)
-- [x] Commit: [m016 done]()
+- [x] Commit: [m016 done](https://github.com/ppedvAG/2021-02-09-TypeScript-N-Angular/commit/bc7164f45a68059eab8bde47b19813c179b44b05)
+
+---
+
+## M017 | NG SERVICES
+
+- [ ] Folien: ANGULAR.pdf > NG SERVICES
+- [ ] Folien: ANGULAR.pdf > NG HTTPCLIENT
+- [ ] Folien: ANGULAR.pdf > RXJS
+- [ ] dependency injection
+- [ ] service & @Injectable()
+- [ ] HttpClienModule & HttpClient
+- [ ] rxjs & observables!!! (ausführlicher gewünscht)
+- [ ] Demo: [get Todos](theory-app/src/app/todos/todos.service.ts)
+- [ ] Commit: [m017 done]()
 
 ---
 
@@ -231,16 +245,7 @@ Komponente Photo wiederholt werden -->
 
 ---
 
-## Mxx | NG SERVICES
 
-- [ ] dependency injection
-- [ ] service & @Injectable()
-- [ ] HttpClienModule & HttpClient
-- [ ] rxjs & observables!!! (ausführlicher gewünscht)
-- [ ] demo todos.service.ts
-- [ ] commit
-
----
 
 ## Mxx | NG MATERIAL
 
