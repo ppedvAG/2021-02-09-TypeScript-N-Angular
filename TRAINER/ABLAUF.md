@@ -252,8 +252,17 @@ Komponente Photo wiederholt werden -->
 - [x] Folien: Angular.pdf > 
 - [x] Link: [material.angular.io](https://material.angular.io/)
 - [x] Demo: [mat elements](theory-app/src/app/labs/material/material.component.html)
-- [x] Commit: [m019 done]
+- [x] Commit: [m019 done](https://github.com/ppedvAG/2021-02-09-TypeScript-N-Angular/commit/c46b53a53dd9f9ff225d38777f6f8c3a544af495)
 
+---
+
+## M020 | JS SERVICE WORKER
+
+- [x] Folien: javascript.pdf > workers api
+- [x] Demo: [service worker](m020/serviceworker.js)
+- [x] Commit: [m020 done]()
+
+<!-- 
 ---
 
 ## MXXX | TS DECLARATION FILES
@@ -261,13 +270,7 @@ Komponente Photo wiederholt werden -->
 - [ ] Link: <https://definitelytyped.org/>
 - [ ] Demo: [declare](declarations/declarations.ts)
 
----
 
-## MXXX | JS SERVICE WORKER?
-
-- [ ] Theorie:
-- [ ] Demo:
-- [ ] [commit]()
 
 ---
 
@@ -284,3 +287,5 @@ Komponente Photo wiederholt werden -->
 - [ ] Theorie:
 - [ ] Demo:
 - [ ] [commit]()
+
+ -->

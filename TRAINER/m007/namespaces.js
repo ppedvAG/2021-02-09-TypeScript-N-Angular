@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.NS1 = void 0;
 let var1 = 2;
 var var2 = 3;
 var NS1;

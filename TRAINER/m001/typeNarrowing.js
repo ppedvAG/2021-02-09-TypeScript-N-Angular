@@ -5,3 +5,25 @@ if (myHTMLElement3 instanceof HTMLDivElement) {
     myHTMLElement3.textContent = 'Inhalt für divId2';
 }
 // Hinweis: mit if (myHTMLElement3 === HTMLDivElement) wird nicht funktionieren
+// UNTERSCHIED ZWISCHEN == UND === 
+let suit = '';
+let suit1 = 'hearts';
+let suit2 = 'hearts';
+let suit3 = 'hearts';
+var test;
+(function (test) {
+    test[test["hearts"] = 0] = "hearts";
+})(test || (test = {}));
+if (suit == suit1) { // bei kompatiblen datentypen können wir mit == nur die Werte vergleichen
+    console.log('condition war true');
+}
+if (suit === suit1) { // mit === werden Werte und Datentypen verglichen, bei kompatiblen datentypen kommt true raus
+}
+if (suit === suit2) { // mit === werden Werte und Datentypen verglichen, bei kompatiblen datentypen kommt true raus
+}
+if (suit === suit3) { // mit === werden Werte und Datentypen verglichen, bei kompatiblen datentypen kommt true raus
+}
+// if  (suit === test.hearts) { // Fehler: This condition will always return 'false' since the types 'string' and 'test' have no overlap.ts(2367)
+// }
+if (suit === test[0]) { // Fehler: This condition will always return 'false' since the types 'string' and 'test' have no overlap.ts(2367)
+}
