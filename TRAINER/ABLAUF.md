@@ -243,17 +243,16 @@ Komponente Photo wiederholt werden -->
 - [x] Paths, Endpoints, Redirections
 - [x] router-outlet & routerLink
 - [x] Demo: [routes](theory-app/src/app/app/app-routing.module.ts)
-- [x] Commit. [m018 done]()
+- [x] Commit. [m018 done](https://github.com/ppedvAG/2021-02-09-TypeScript-N-Angular/commit/f5466fd386d03c0fd06fa9a6e5252d95af9c15b5)
 
 ---
 
+## M019 | NG MATERIAL
 
-
-## Mxx | NG MATERIAL
-
-- [ ] Link: [material.angular.io](https://material.angular.io/)
-- [ ] Demo mat-slider
-- [ ] commit
+- [x] Folien: Angular.pdf > 
+- [x] Link: [material.angular.io](https://material.angular.io/)
+- [x] Demo: [mat elements](theory-app/src/app/labs/material/material.component.html)
+- [x] Commit: [m019 done]
 
 ---
 
@@ -280,7 +279,7 @@ Komponente Photo wiederholt werden -->
 
 ---
 
-## MXXX | TS TYPE NARROWING & TYPE GUARDS ##
+## MXXX | TS TYPE NARROWING & TYPE GUARDS
 
 - [ ] Theorie:
 - [ ] Demo:

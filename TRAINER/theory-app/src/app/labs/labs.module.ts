@@ -9,6 +9,13 @@ import { TimerComponent } from './timer/timer.component';
 import { FormsComponent } from './forms/forms.component';
 import { FormsModule } from '@angular/forms';
 import { PwConfirmComponent } from './pw-confirm/pw-confirm.component';
+import { MaterialComponent } from './material/material.component';
+import { MatButtonModule } from '@angular/material/button';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatInputModule } from '@angular/material/input';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatList, MatListModule } from '@angular/material/list';
+// import { MatPseudoCheckboxModule } from '@angular/material/core';
 
 @NgModule({
   declarations: [
@@ -18,10 +25,15 @@ import { PwConfirmComponent } from './pw-confirm/pw-confirm.component';
     DiashowComponent, 
     DiceComponent, 
     TimerComponent, 
-    FormsComponent, PwConfirmComponent],
+    FormsComponent, PwConfirmComponent, MaterialComponent],
   imports: [
     CommonModule,
-    FormsModule
+    FormsModule,
+    MatButtonModule,
+    MatCheckboxModule,
+    MatListModule,
+    MatInputModule,
+    MatToolbarModule
   ],
   exports: [
     OverviewLabsComponent
