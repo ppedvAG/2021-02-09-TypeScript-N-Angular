@@ -6,6 +6,7 @@ import { RatingComponent } from './rating/rating.component';
 import { TodoRowComponent } from './todo-row/todo-row.component';
 import { Rating2Component } from './rating2/rating2.component';
 import { FormsModule } from '@angular/forms';
+import { AppRoutingModule } from '../app/app-routing.module';
 
 
 
@@ -18,7 +19,8 @@ import { FormsModule } from '@angular/forms';
   imports: [
     CommonModule,
     FormsModule, 
-    HttpClientModule
+    HttpClientModule,
+    AppRoutingModule
   ],
   exports: [
     OverviewTodosComponent

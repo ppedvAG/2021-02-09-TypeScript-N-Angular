@@ -223,25 +223,27 @@ Komponente Photo wiederholt werden -->
 
 ## M017 | NG SERVICES
 
-- [ ] Folien: ANGULAR.pdf > NG SERVICES
-- [ ] Folien: ANGULAR.pdf > NG HTTPCLIENT
-- [ ] Folien: ANGULAR.pdf > RXJS
-- [ ] dependency injection
-- [ ] service & @Injectable()
-- [ ] HttpClienModule & HttpClient
-- [ ] rxjs & observables!!! (ausführlicher gewünscht)
-- [ ] Demo: [get Todos](theory-app/src/app/todos/todos.service.ts)
-- [ ] Commit: [m017 done]()
+- [x] Folien: ANGULAR.pdf > NG SERVICES
+- [x] Folien: ANGULAR.pdf > NG HTTPCLIENT
+- [x] Folien: ANGULAR.pdf > RXJS
+- [x] dependency injection
+- [x] service & @Injectable()
+- [x] HttpClienModule & HttpClient
+- [x] rxjs & observables!!! (ausführlicher gewünscht)
+- [x] Demo: [get Todos](theory-app/src/app/todos/todos.service.ts)
+- [x] Commit: [m017 done](https://github.com/ppedvAG/2021-02-09-TypeScript-N-Angular/commit/6c1b9fe03b347f3e6718559da3669d38e82ca1eb)
 
 ---
 
-## Mxx | NG ROUTING
+## M018 | NG ROUTING
 
-- [ ] RoutingModule & RouterModule
-- [ ] Routes & Route
-- [ ] Paths, Endpoints, Redirections
-- [ ] router-outlet & routerLink
-- [ ] commit
+- [x] Folien: ANGULAR.pdf > NG ROUTING
+- [x] RoutingModule & RouterModule
+- [x] Routes & Route
+- [x] Paths, Endpoints, Redirections
+- [x] router-outlet & routerLink
+- [x] Demo: [routes](theory-app/src/app/app/app-routing.module.ts)
+- [x] Commit. [m018 done]()
 
 ---
 
