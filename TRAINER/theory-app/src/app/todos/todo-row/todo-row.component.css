@@ -9,3 +9,12 @@
 :host {
     display: block;
 }
+
+td {
+    border: thin solid;
+}
+
+.mouse-over {
+    border-color: blue;
+    font-size: 1.5em;
+}

@@ -1,5 +1,5 @@
 <p>todo-row works!</p>
-<tr>
+<tr (mouseenter)="toggleMouseOver()" (mouseleave)="toggleMouseOver()" [class.mouse-over]="mouseOver">
     <td>{{todos[0].id}}</td>
     <td>{{todos[0].userId}}</td>
     <td [class.is-completed]="todos[0].completed">{{todos[0].title}}</td>
@@ -17,6 +17,9 @@
     <td [style.text-decoration]="todos[0].completed ? 'line-through' : ''">{{todos[1].title}}</td>
     <td>{{todos[1].completed}}</td>
     <td>
-        <app-rating [starsNumber]=3></app-rating>
+        <!-- Thema INPUTS -->
+        <!-- <app-rating [starsNumber]=3></app-rating> -->
+        <!-- Thema OUTPUTS -->
+        <app-rating2 [starsNumber]="todos[1].rating" (ratingChanged)=handleRatingChanged($event)></app-rating2>
     </td>
 </tr>

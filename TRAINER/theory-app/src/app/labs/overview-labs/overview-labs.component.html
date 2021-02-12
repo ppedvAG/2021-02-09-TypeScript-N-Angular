@@ -4,7 +4,7 @@
 
 <app-time></app-time>
 
-
+<hr>
 <h3>CARD COMPONENT</h3>
 <p>@Input(), props von der aufrufenden Stelle</p>
 <app-card [suit]="diamonds" [value]=3></app-card>
@@ -15,8 +15,9 @@
 <app-card [suit]="'caro'" [value]=3></app-card>
 <app-card [suit]="'diamonds'" [value]=3></app-card>
 
-
+<hr>
 <h3>DIASHOW COMPONENT</h3>
+<p>ngOnInit, ngOnChanges...</p>
 <app-diashow [images]="[
 'https://picsum.photos/300/200?image=0',
 'https://picsum.photos/300/200?image=10',
@@ -29,7 +30,29 @@
   (war ohne Erfolg)
 </pre>
 <button (click)=destroyDiashow()>destroy</button>
+<hr>
+
 
 <h3>DICE COMPONENT</h3>
+<p>*ngIf</p>
 <app-dice></app-dice>
+<hr>
+
+
+<h3>TIMER COMPONENT</h3>
+<p>@Output, EventEmitter</p>
+<app-timer [time]=5 (start)="handleStart()" (tick)="handleTick($event)" (end)="handleEnd($event)"></app-timer>
+<p>_{{startMessage}}_</p>
+<p>_{{tickMessage}}_</p>
+<p [style.color]="'red'">_{{threeSecondsMessage}}_</p>
+<p>_{{endMessage}}_</p>
+<hr>
+
+
+<h3>FORMS COMPONENT</h3>
+<p>ngModel</p>
+<app-forms></app-forms>
+
+<hr>
+<hr>
 

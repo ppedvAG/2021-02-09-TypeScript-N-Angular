@@ -14,7 +14,7 @@
 
 ---
 
-## M001 | GETTING STARTED
+## M001 | TS GETTING STARTED
 
 - [x] Folien: TS > [getting started](slides/typescript.md#getting-started)
 - [x] Folien: TS > [ts ecosystem](slides/typescript.md#ts--ecosystem)
@@ -29,7 +29,7 @@
 
 ---
 
-## M002 | TYPES
+## M002 | TS TYPES
 
 - [x] Folien: [types](slides/typescript.md#types)
 - [x] Demo: [primitives](m002/primitives.ts)
@@ -38,7 +38,7 @@
 
 ---
 
-## M003 | FUNCTIONS
+## M003 | TS FUNCTIONS
 
 - [x] Folien: [functions](slides/typescript.md#functions)
 - [x] return type
@@ -51,7 +51,7 @@
 
 ---
 
-## M004 | DATA STRUCTURES
+## M004 | TS DATA STRUCTURES
 
 - [x] Folien: [structures](slides/typescript.md#data-structures)
 - [x] Demo: [arrays](m004/arrays.ts)
@@ -63,7 +63,7 @@
 
 ---
 
-## M005 | CUSTOM PRIMITIVES
+## M005 | TS CUSTOM PRIMITIVES
 
 - [x] Theorie & Demo: [union](m005/unions.ts)
 - [x] Theorie & Demo: [literal type](m005/literaltypes.ts)
@@ -73,7 +73,7 @@
 
 ---
 
-## M006 | CLASSES & INTERFACES
+## M006 | TS CLASSES & INTERFACES
 
 - [x] Folien: [interfaces](slides/typescript.md#interfaces)
 - [x] Folien: [classes](slides/typescript.md#classes)
@@ -83,7 +83,7 @@
 
 ---
 
-## M007 | AMBIENTS (NAMESPASES / MODULES)
+## M007 | TS AMBIENTS (NAMESPASES / MODULES)
 
 *kurz erklärt*
 
@@ -93,7 +93,7 @@
 
 ---
 
-## M008 | PROMISE
+## M008 | JS PROMISE
 
 - [x] Theorie & Demo: [promise](m008/promises.ts)
 - [x] Übung: [fetchAPI](m008/ue-fetchAPI.ts)
@@ -123,7 +123,7 @@
 
 ---
 
-## M011 | COMPONENTS INTRO
+## M011 | NG COMPONENTS INTRO
 
 - [x] Folien: ANGULAR.pdf > NG COMPONENTS
 - [ ] templateUrl VS template ('inline-template')
@@ -148,7 +148,7 @@ rating-Komponente wird über Overview gerendert
 
 ---
 
-## M012 | COMPONENTS & LIFECYCLE
+## M012 | NG COMPONENTS LIFECYCLE
 
 - [ ] Folien: ANGULAR.pdf > NG STATE > LIFECYCLE
 - [ ] Demo: [lifecycle hooks](theory-app/src/app/labs/diashow/diashow.component.ts)
@@ -168,7 +168,7 @@ rating-Komponente wird über Overview gerendert
 
 ---
 
-## M014 | DIRECTIVES
+## M014 | NG DIRECTIVES
 
 - [x] Folien: ANGULAR.pdf > DIRECTIVES
 - [x] Folien: ANGULAR.pdf > TEMPLATES
@@ -177,7 +177,7 @@ rating-Komponente wird über Overview gerendert
 - [x] pipes demo pipes.component.html
 - [x] ng-template roman-number.component.html
 - [x] Übung: [dice](theory-app/src/app/labs/dice/dice.component.ts)
-- [x] Commit: [m014 done]
+- [x] Commit: [m014 done](https://github.com/ppedvAG/2021-02-09-TypeScript-N-Angular/commit/6cc8c658688a615f3c6c04d5813ef25d93136398)
 
 <!-- 
 LAB1
@@ -194,28 +194,34 @@ in ein Array diese 15 Bilder packen
 Array durchiterieren und dabei soll die 
 Komponente Photo wiederholt werden -->
 
-commit
+---
 
+## M015 | NG EVENTS
 
-## Mxx | EVENTS ##
+- [x] Folien: ANGULAR.pdf > NG EVENTS
+- [x] event binding über runde Klammern
+- [x] event object, event.target, event types
+- [x] demo events events.component.ts
+- [ ] Demo:  [outputs](theory-app/src/app/labs/timer/timer.component.ts)
+- [ ] Übung: [rating changed](theory-app/src/app/todos/rating2/rating2.component.ts)
+- [ ] Commit:
 
-- [ ] event binding über runde Klammern
-- [ ] event object, event.target, event types
-- [ ] demo events events.component.ts
-- [ ] demo outputs outputs.component.ts
-- [ ] commit
+---
 
-## Mxx | FORMS ##
+## M016 | NG FORMS
 
-- [ ] FormsModule
-- [ ] ngModel
-- [ ] ngForm
-- [ ] two way data binding [(ngModel)]
-- [ ] demo ngform ngform.component.ts
-- [ ] Ü login form login-form.component.ts
-- [ ] commit
+- [x] Folien: ANGULAR.pdf > NG FORMS
+- [x] Demo: [forms](theory-app/src/app/labs/forms/forms.component.ts)
+- [x] ngModel
+- [x] ngForm
+- [x] two way data binding [(ngModel)]
+- [x] demo ngform ngform.component.ts
+- [x] Übung: [pwConfirm](theory-app/src/app/labs/pw-confirm/pw-confirm.component.ts)
+- [x] Commit: [m016 done]()
 
-## Mxx | ROUTING ##
+---
+
+## Mxx | NG ROUTING
 
 - [ ] RoutingModule & RouterModule
 - [ ] Routes & Route
@@ -223,7 +229,9 @@ commit
 - [ ] router-outlet & routerLink
 - [ ] commit
 
-## Mxx | SERVICES ##
+---
+
+## Mxx | NG SERVICES
 
 - [ ] dependency injection
 - [ ] service & @Injectable()
@@ -232,7 +240,9 @@ commit
 - [ ] demo todos.service.ts
 - [ ] commit
 
-## Mxx | MATERIAL ##
+---
+
+## Mxx | NG MATERIAL
 
 - [ ] Link: [material.angular.io](https://material.angular.io/)
 - [ ] Demo mat-slider
@@ -240,14 +250,14 @@ commit
 
 ---
 
-## MXXX | DECLARATION FILES
+## MXXX | TS DECLARATION FILES
 
 - [ ] Link: <https://definitelytyped.org/>
 - [ ] Demo: [declare](declarations/declarations.ts)
 
 ---
 
-## MXXX | SERVICE WORKER?
+## MXXX | JS SERVICE WORKER?
 
 - [ ] Theorie:
 - [ ] Demo:
@@ -255,7 +265,7 @@ commit
 
 ---
 
-## MXXX | DECORATORS
+## MXXX | TS DECORATORS
 
 - [ ] Theorie:
 - [ ] Demo:
@@ -263,7 +273,7 @@ commit
 
 ---
 
-## MXXX | TYPE NARROWING & TYPE GUARDS ##
+## MXXX | TS TYPE NARROWING & TYPE GUARDS ##
 
 - [ ] Theorie:
 - [ ] Demo:

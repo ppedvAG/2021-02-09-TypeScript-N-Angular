@@ -1,0 +1,81 @@
+<p>forms works!</p>
+<input ngModel #colorInput type="color">
+{{colorInput}} 
+<!-- [object HTMLInputElement]  -->
+{{colorInput.value}}
+<!-- #000000 -->
+<!-- {{colorInput.valid}} -->
+<!-- Fehler: Property 'valid' does not exist on type 'HTMLInputElement'. -->
+
+<br>
+<input ngModel #colorInput2="ngModel" type="color" (input)="handleColorInput(colorInput2)">
+<!-- nachdem colorInput ngModel übernommen hat -->
+<!-- 
+    control: FormControl {_hasOwnPendingAsyncValidator: false, _parent: null, pristine: false, touched: true, _onCollectionChange: ƒ, …}
+model: ""
+name: null
+update: EventEmitter_ {_isScalar: false, observers: Array(0), closed: false, isStopped: false, hasError: false, …}
+valueAccessor: DefaultValueAccessor {_renderer: DefaultDomRenderer2, _elementRef: ElementRef, _compositionMode: true, onChange: ƒ, onTouched: ƒ, …}
+viewModel: "#7c2d2d"
+__ngContext__: LComponentView_FormsComponent(229) [app-forms, TView, 147, LComponentView_OverviewLabsComponent(179), null, null, TNode, LCleanup(52), FormsComponent, {…}, DomRendererFactory2, DefaultDomRenderer2, null, null, null, LComponentView_OverviewLabsComponent(179), LComponentView_FormsComponent(229), null, 0, null, p, text, input.ng-untouched.ng-pristine.ng-valid, input.ng-untouched.ng-pristine.ng-valid, text, text, br, input.ng-valid.ng-dirty.ng-touched, NgModel, pre, text, text, text, text, text, h4, text, p, text, input.ng-untouched.ng-pristine.ng-valid, h4, text, form.ng-untouched.ng-pristine.ng-valid, NgForm, input.ng-untouched.ng-pristine.ng-valid, input.ng-untouched.ng-pristine.ng-valid, p, text, p, text, button, text, input.ng-untouched.ng-pristine.ng-valid, "#000000", NgModel, true, false, false, true, undefined, {…}, "", 515, 0, 0, 0, 0, 0, 0, 0, 65705, Array(1), NgModel, DefaultValueAccessor, NgControlStatus, NgModel, true, true, false, false, true, true, false, false, true, true, false, false, false, false, 515, 0, 0, 0, 0, 0, 0, 0, 65705, Array(1), …]
+__ngSimpleChanges__: {previous: {…}, current: null}
+_composedAsyncValidatorFn: null
+_composedValidatorFn: null
+_onDestroyCallbacks: (2) [ƒ, ƒ]
+_parent: null
+_rawAsyncValidators: []
+_rawValidators: []
+_registered: true
+asyncValidator: (...)
+dirty: (...)
+disabled: (...)
+enabled: (...)
+errors: (...)
+formDirective: (...)
+invalid: (...)
+path: (...)
+pending: (...)
+pristine: false
+status: (...)
+statusChanges: (...)
+touched: true
+untouched: false
+valid: true
+validator: null
+value: "#7c2d2d"
+valueChanges: EventEmitter_
+__proto__: NgControl
+ -->
+<pre>
+    colorInput2: {{colorInput2}} 
+    <!-- [object Object] -->
+    colorInput2.valid: {{colorInput2.valid}}
+    <!-- true -->
+    colorInput2.pristine: {{colorInput2.pristine}} 
+    <!-- wenn man mit dem Kursor drin ist -->
+    colorInput2.untouched: {{colorInput2.untouched}}
+    colorInput2.touched: {{colorInput2.touched}}
+    <!-- nachdem man mit dem Kursor drin gewesen ist -->
+</pre>
+
+
+
+<h4>Data Binding</h4>
+<p>über [(ngModel)] lässt sich value von einem Form-Control mit einer Prop in der Klasse verbinden</p>
+<input [(ngModel)]="inputValue" type="date" (input)=handleInput()>
+
+
+<h4>ngForm Direktive</h4>
+<form #myForm="ngForm" action="#" (ngSubmit)="handleNgSubmit(myForm.value)">
+    <input type="text" name="firstName" ngModel>
+    <input type="text" name="lastName" ngModel>
+<!--     <p>{{myForm.firstName}}</p>
+    <p>{{myForm.lastName}}</p> -->
+    <!-- die Props firstName und lastName sind Props vom Objekt value, welches eine Prop vom Objekt myForm ist -->
+    <p>{{myForm.value}}</p>
+    <!-- [object Object] -->
+    <p>{{myForm.value.firstName}}</p>
+    <button>Submit</button>
+    <!-- <button type="button">test submit</button> -->
+    <!-- button innerhalb von Formularen haben automatisch type="submit" -->
+</form>
