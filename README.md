@@ -12,4 +12,4 @@ Format: Vollzeit
 
 [Agenda von NG Kurs auf ppedv.de](https://ppedv.de/Schulung/Kurse/AngularJS-JavaScript-SinglePage-WebApp-SPA-MVC-MVVM-Seminar-Training.aspx)
 
-Für weitere Inhalte vom Trainer schau in die Ablauf-Datei im 'Trainer'-Ordner rein [link](./TRAINER/readmy.md).
+Für weitere Inhalte vom Trainer schau in die Ablauf-Datei im 'Trainer'-Ordner rein [link](./TRAINER/readme.md).
