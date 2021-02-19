@@ -260,7 +260,7 @@ Komponente Photo wiederholt werden -->
 
 - [x] Folien: javascript.pdf > workers api
 - [x] Demo: [service worker](m020/serviceworker.js)
-- [x] Commit: [m020 done]()
+- [x] Commit: [m020 done](https://github.com/ppedvAG/2021-02-09-TypeScript-N-Angular/commit/109fc9d5329d7bab41d924cb64e979bf33f8cdbf)
 
 <!-- 
 ---

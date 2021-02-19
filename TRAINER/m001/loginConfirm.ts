@@ -9,7 +9,7 @@ let myInp2 = document.getElementById('inp2')
 let myBtnOk = document.getElementById('btnOk')
 let myPAusgabe = document.getElementById('PAusgabe');
 
-// todo
+// todo #1
 // myInp1?.addEventListener('change', handleChange);
 myInp1!.addEventListener('change', handleChange);
 myInp2!.addEventListener('change', handleChange)
@@ -19,7 +19,7 @@ function handleChange(){
     console.log('handleChange triggert')
     if ((myInp1! as HTMLInputElement).value === (myInp2! as HTMLInputElement).value) {
         myPAusgabe!.textContent = 'Die Eingaben stimmen überein';
-        (myBtnOk! as HTMLButtonElement).disabled = false
+        (myBtnOk! as HTMLButtonElement).disabled = false;
     }
     
 
