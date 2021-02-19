@@ -8,8 +8,8 @@ console.log('myHTMLElement', myHTMLElement)
 
 // Versuch 2
 // myHTMLElement?.textContent = 'Inhalt für divId1' // The left-hand side of an assignment expression may not be an optional property access.ts(2779)
-// todo: Fragezeichen wird automatisch
-// von der Erweiterung TSLint hinzugefügt
+// todo #1: 
+// Fragezeichen wird automatisch von der Erweiterung TSLint hinzugefügt
 
 // Versuch 3
 let myHTMLElement2 = myHTMLElement!
