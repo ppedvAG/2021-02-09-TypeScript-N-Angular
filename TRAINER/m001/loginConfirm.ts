@@ -10,8 +10,8 @@ let myBtnOk = document.getElementById('btnOk')
 let myPAusgabe = document.getElementById('PAusgabe');
 
 // todo #1
-// myInp1?.addEventListener('change', handleChange);
-myInp1!.addEventListener('change', handleChange);
+myInp1?.addEventListener('change', handleChange)
+// myInp1!.addEventListener('change', handleChange)
 myInp2!.addEventListener('change', handleChange)
 
 

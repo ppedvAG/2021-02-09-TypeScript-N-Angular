@@ -28,7 +28,7 @@ myAny = '4'; // Typechecking ist bei any ausgeschaltet: any akzeptiert alle Wert
 console.log('typeof myAny', typeof myAny); // string, also any-Variable ist flexibel, Datentyp wird ermittelt bei jeder neuen Zuweisung
 myString = 'wert2 von string';
 myString = myAny; // Typechecking ist bei any ausgeschaltet: andere Datentypen akzeptieren die Werte von einer any-Variable
-// todo https://github.com/ppedvAG/2021-02-09-TypeScript-N-Angular/issues/4
+// todo #4 https://github.com/ppedvAG/2021-02-09-TypeScript-N-Angular/issues/4
 // aber der Wert von der Variable links vom Zuweisungoperator wird angepasst!
 myAny = 5;
 myString = myAny;
