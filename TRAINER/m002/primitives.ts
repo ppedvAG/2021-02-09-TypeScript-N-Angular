@@ -37,8 +37,8 @@ function myVoidFct (): void {
 myVoidFct()
 
 
-// === any ===
-
+// === ANY ===
+console.log('\n=== ANY ===')
 let myAny: any
 myAny = 4
 console.log('typeof myAny', typeof myAny) // number
@@ -47,7 +47,7 @@ console.log('typeof myAny', typeof myAny) // string, also any-Variable ist flexi
 
 myString = 'wert2 von string'
 myString = myAny // Typechecking ist bei any ausgeschaltet: andere Datentypen akzeptieren die Werte von einer any-Variable
-// todo #4 https://github.com/ppedvAG/2021-02-09-TypeScript-N-Angular/issues/4
+// todo #4 closed
 // aber der Wert von der Variable links vom Zuweisungoperator wird angepasst!
 
 myAny = 5
@@ -57,8 +57,8 @@ console.log('typeof myString', typeof myString) //number
 myString = ' text nach einer Number-Zuweisung' // myString funktioniert jetzt auch wie any
 
 
-// === unknown ===
-
+// === UNKNOWN ===
+console.log('\n=== UNKNOWN ===')
 let myUnknown: unknown
 
 // gleich wie bei any:

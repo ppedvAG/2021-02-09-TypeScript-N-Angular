@@ -1,11 +1,14 @@
-// Funktion, die als Argumente beliebige Anzahl von HTMLElements oder NodeListOf<HTMLElement> annimmt
-// von den bekommenen Argumenten gibt die Funktion die Property 'nodeName' zurück, verpackt in ein Array
-// objekt.nodeName
-// myInputVariable.nodeName
+// Es gibt ja mehrere Funktionen, mit denen man DOM-Elemente (HTML-Elemente) ansprechen kann.
+// Aber diese Funktionen liefern verschiedene Datenstrukturen zurück.
+// Ihre Aufgabe ist, eine Funktion zu definieren, die als Argumente verschiedene Datenstrukturen oder nur ein einzelnes Element annimmt.
+// Objekte HTMLElement und Element haben beide die Eigenschaft 'nodeName'.
+// Ziel ist es, von den bekommenen HTMLElement- oder Element-Objekten diese Eigenschaft auszulesen und deren Wert in ein Array zu verpacken und dieses zurückgeben.
 
-// Nutzen von dieser anzulegenden Funktion ist, 
-// dass man durch sie immer ein Array von nodeNames bekommt, 
-// egal, mit welcher Traversing-Methode die (HTML)Elemente selektiert hat.
+// Erweitern Sie die Definition dieser Funktion, damit sie der Beschreibung entspricht
+// function giveNodeNames(*argumentenListe*): Array<string> {
+//     return *arrayOfNodeNames*
+// }
+
 
 function giveNames(htmlColl?: HTMLCollectionOf<Element>, nodesList?: NodeListOf<HTMLElement>, ...elementsOrNodes: Array<HTMLElement>): Array<string> {
     let namesArray: string[] = []
@@ -32,4 +35,5 @@ console.log('giveNames(document.getElementsByName("inpName")) :>> ', giveNames(u
 console.log('object', giveNames(document.getElementsByClassName("extraBig")))
 console.log('object', giveNames(document.getElementsByTagName("p")))
 
-// todo #5
+// todo #5 issue verschoben nach PPKURS-TS
+// Die Übung braucht mehr Themen um gelöst zu werden, als bisher behandelt. Sie muss ersetzt werden.

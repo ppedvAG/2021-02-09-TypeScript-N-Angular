@@ -20,7 +20,8 @@ function myVoidFct() {
     console.log('myVoidFct works');
 }
 myVoidFct();
-// === any ===
+// === ANY ===
+console.log('\n=== ANY ===');
 let myAny;
 myAny = 4;
 console.log('typeof myAny', typeof myAny); // number
@@ -28,14 +29,15 @@ myAny = '4'; // Typechecking ist bei any ausgeschaltet: any akzeptiert alle Wert
 console.log('typeof myAny', typeof myAny); // string, also any-Variable ist flexibel, Datentyp wird ermittelt bei jeder neuen Zuweisung
 myString = 'wert2 von string';
 myString = myAny; // Typechecking ist bei any ausgeschaltet: andere Datentypen akzeptieren die Werte von einer any-Variable
-// todo #4 https://github.com/ppedvAG/2021-02-09-TypeScript-N-Angular/issues/4
+// todo #4 closed
 // aber der Wert von der Variable links vom Zuweisungoperator wird angepasst!
 myAny = 5;
 myString = myAny;
 console.log('myString', myString); //number
 console.log('typeof myString', typeof myString); //number
 myString = ' text nach einer Number-Zuweisung'; // myString funktioniert jetzt auch wie any
-// === unknown ===
+// === UNKNOWN ===
+console.log('\n=== UNKNOWN ===');
 let myUnknown;
 // gleich wie bei any:
 myUnknown = 3;
